@@ -13,6 +13,7 @@ namespace comp110_worksheet_7
 		public static long GetFileSize(string filePath)
 		{
 			return new FileInfo(filePath).Length;
+            //Will do later
 		}
 
 		// Return true if the given path points to a directory, false if it points to a file
